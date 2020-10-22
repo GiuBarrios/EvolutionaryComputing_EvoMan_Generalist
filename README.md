@@ -1,6 +1,29 @@
+# README
+
+This repository contains five Python files:
+
+(1) Generalist_FinalBestSolution
+Identifying the final best player, performing best against all 8 enemies in terms of avg fitness after the runs.
+
+(2) Generalist_IG_BestInd
+Comapring the two algorithms in a test playing against all enemies, testing each enemy 5
+times with final best solution for each of the 10 independent runs, and presenting
+the resulting Gains in box-plots.
+
+(3) Generalist_Plots
+Line plots (𝑀 and 𝑆𝐸 (for better visualization) of mean and max
+fitness of the GAs across 10 independent runs for 3 EGs) and Boxplots (Gains best solutions, across all enemies (5 runs)). 
+
+(4) Generalist_TwoPoint
+Implementing the Genetic Algorithm with a Two Point Crossover Method.
+
+(5) Generalist_Uniform
+Implementing the Genetic Algorithm with a Uniform Crossover Method.
+
+# Evolutionary Computing Task 2: Generalist Agent
 
 ## 1. Introduction
-Neuroevolution describes a process where deep neural networks are optimized by evolutionary algorithms (\textit{EA}s)  allowing artificial agents to take automatic decisions in uncertain environments. Video games like the EvoMan Framework that is based on the Mega Man II game, display appropriate testing environments allowing to verify the capability of an algorithm by evolving an autonomous agent. 
+Neuroevolution describes a process where deep neural networks are optimized by evolutionary algorithms (\textit{EA}s) allowing artificial agents to take automatic decisions in uncertain environments. Video games like the EvoMan Framework that is based on the Mega Man II game, display appropriate testing environments allowing to verify the capability of an algorithm by evolving an autonomous agent. 
 In our previous paper we compared two different crossover mechanisms of a Genetic Algorithm (\textit{GA}) and investigated the influence on the performance of a specialist agent by taking possible interaction effects between population size and crossover method into account. Against the findings of John and Spears, our results neither showed that a uniform crossover method outperforms a 2-point crossover method for smaller populations, nor that a 2-point crossover is beneficial for larger population sizes. Instead, rather search space specific patterns were found, suggesting that the optimal choice of a crossover operator is rather problem specific. 
 
 Building up on these findings, the aim of this paper is to compare the performance of 2-point and uniform crossover (see 3.1) based GAs by taking the influence of the complexity of the search space (represented by different enemy groups) on the player performance into account.
