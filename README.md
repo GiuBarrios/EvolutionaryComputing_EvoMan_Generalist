@@ -2,22 +2,22 @@
 
 This repository contains five Python files:
 
-(1) Generalist_FinalBestSolution
+#### (1) Generalist_FinalBestSolution
 Identifying the final best player, performing best against all 8 enemies in terms of avg fitness after the runs.
 
-(2) Generalist_IG_BestInd
+#### (2) Generalist_IG_BestInd
 Comapring the two algorithms in a test playing against all enemies, testing each enemy 5
 times with final best solution for each of the 10 independent runs, and presenting
 the resulting Gains in box-plots.
 
-(3) Generalist_Plots
+#### (3) Generalist_Plots
 Line plots (𝑀 and 𝑆𝐸 (for better visualization) of mean and max
 fitness of the GAs across 10 independent runs for 3 EGs) and Boxplots (Gains best solutions, across all enemies (5 runs)). 
 
-(4) Generalist_TwoPoint
+#### (4) Generalist_TwoPoint
 Implementing the Genetic Algorithm with a Two Point Crossover Method.
 
-(5) Generalist_Uniform
+#### (5) Generalist_Uniform
 Implementing the Genetic Algorithm with a Uniform Crossover Method.
 
 # Evolutionary Computing Task 2: Generalist Agent
